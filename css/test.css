@@ -146,7 +146,7 @@ input, select {
   font-style: oblique;
   text-align: left;
 }
-.news{
+.news-left{
   position: absolute;
   width: 600px;
   bottom: 0;
@@ -156,4 +156,12 @@ input, select {
 }
 .news-all{
   display: flex;
+}
+.news-right{
+  position: absolute;
+  width: 100px;
+  bottom: 0;
+  right: 0;
+  height: 80px;
+  color: #cccccc;
 }
