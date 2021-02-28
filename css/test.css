@@ -148,20 +148,28 @@ input, select {
 }
 .news-left{
   position: absolute;
-  width: 600px;
+  width: 800px;
   bottom: 0;
   right: 0;
-  height: 80px;
-  color: #cccccc;
+  height: 60px;
+  color: #000;
+  background-color: #fff;
+}
+.news-title{
+  font-size: 15px;
+  line-height: 30px;
 }
 .news-all{
   display: flex;
 }
 .news-right{
   position: absolute;
-  width: 100px;
+  width: 150px;
   bottom: 0;
   right: 0;
-  height: 80px;
+  height: 60px;
   color: #cccccc;
+  background-color: black;
+  line-height: 60px;
+  text-align: center;
 }
