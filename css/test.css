@@ -164,6 +164,7 @@ input, select {
 }
 .news-right{
   position: absolute;
+  font-size: 15px;
   width: 150px;
   bottom: 0;
   right: 0;
