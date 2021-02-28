@@ -158,6 +158,7 @@ input, select {
 .news-title{
   font-size: 15px;
   line-height: 30px;
+  text-indent: 1em;
 }
 .news-all{
   display: flex;
