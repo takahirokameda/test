@@ -141,7 +141,7 @@ input, select {
   top: 60%;
   left: 10%;
   color: #cccccc;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   font-style: oblique;
   text-align: left;
@@ -174,4 +174,88 @@ input, select {
   background-color: black;
   line-height: 60px;
   text-align: center;
+}
+#mission{
+  position: relative;
+  height: 500px;
+  background-color: #000;
+}
+#mission .section-title{
+  position: absolute;
+  left: 300px;
+  top: 160px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #cccccc;
+}
+.mission-right img{
+  position: absolute;
+  left: 930px;
+  top: 100px;
+  display: block;
+  width: 40%;
+}
+.mission-text{
+  position: absolute;
+  left: 300px;
+  top: 220px;
+  color: #cccccc;
+  font-size: 15px;
+  width: 50%;
+}
+.mission-link{
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  background-color: #fff;
+  padding: 10px 25px;
+  font-size: 12px;
+  text-decoration: none;
+}
+#service{
+  position: relative;
+  margin-top: 200px;
+  background-color:#efefef;
+  height: 1400px;
+}
+#service .section-title{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 35px;
+}
+.serviceimg-right img{
+right: 0%;
+top: 100px;
+display: block;
+width: 50%;
+position: absolute;
+}
+.serviceimg-left img{
+left: 0%;
+top: 800px;
+display: block;
+width: 50%;
+position: absolute;
+}
+.service-text-sec1{
+position: absolute;
+left: 400px;
+top: 250px;
+width: 600px;
+height: 300px;
+background-color: #fff;
+}
+.service-text-sec2{
+position: absolute;
+right: 400px;
+top: 920px;
+width: 600px;
+height: 300px;
+background-color: #fff;
+}
+.text-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
