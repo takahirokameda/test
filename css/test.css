@@ -255,7 +255,18 @@ height: 300px;
 background-color: #fff;
 }
 .text-wrap{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 70px;
+}
+.text-sec1{
+  margin-top: 20px;
+}
+.text-sec2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.service-link{
+  text-align: right;
+  text-decoration: none;
+  color: #000;
+  border: 1px #000 solid;
 }
