@@ -266,7 +266,46 @@ background-color: #fff;
 }
 .service-link{
   text-align: right;
-  text-decoration: none;
-  color: #000;
+}
+.service-link-sec1{
   border: 1px #000 solid;
+  padding: 10px 25px;
+  font-size: 12px;
+  text-decoration: none;
+}
+#company{
+  position: relative;
+  background-color:#fff;
+  height: 800px;
+}
+.company-left img{
+  left: 0%;
+  top: 150px;
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  display: block;
+}
+.company-right img{
+  right: 0%;
+  top: 150px;
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  display: block;
+}
+.faq{
+  position: absolute;
+  background-color: black;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 120px;
+  margin: auto;
+  padding: 10px;
+  width: 1200px;
+  height: 100px;
+}
+.campany-wrap{
+  padding: 30px;
 }
